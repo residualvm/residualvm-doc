@@ -1,0 +1,32 @@
+# For convenience and ease of use, we include our own private copy
+# of the DocBook XML 4.2 files.
+SGML_CATALOG_FILES=$(PWD)/docbook-xml-4.2/catalog.xml
+DOCBOOK_DTD=$(PWD)/docbook-xml-4.2/docbookx.dtd
+
+#
+# Everything after here *should* be portable.
+#
+
+FAQ_DST = faq.html faq.inc
+
+html: faq.html
+
+all: $(FAQ_DST)
+
+clean:
+	rm -f $(FAQ_DST)
+
+#
+# Validate the XML using xmllint (part of libxml2)
+#
+check:
+	xmllint --dtdvalid $(DOCBOOK_DTD) --noout --noent --xinclude faq.xml
+
+$(MANUAL_DST): credits.xml
+
+# Special rule for faq.inc:
+# Only keep everything contained inside the top-most <div> inside the <body>
+faq.inc: faq.html
+	  xsltproc --html --output $@ faq-inc.xsl $<
+
+.PHONY: all clean check

@@ -1,0 +1,36 @@
+include Makefile.common
+
+#
+# Try various potential locations for the DCL file, picking the
+# first one we find.
+#
+DCL_CANDIDATES = \
+  $(strip $(foreach TMP_DCL, \
+    /usr/share/sgml/xml.dcl \
+    /usr/share/sgml/declaration/xml.dcl \
+    /sw/share/sgml/openjade-1.3.2/pubtext/xml.dcl, \
+    $(shell test -f $(TMP_DCL) && echo $(TMP_DCL))))
+DCL := --cat docbook-xml-4.2/docbook.cat -l $(firstword $(DCL_CANDIDATES))
+
+
+#
+# The following rules convert our DocBook XML into various target formats
+# with the help of the docbook-utils package. That in turn uses jadetex.
+# Note that the plain text version apparently is simply made by using a text
+# based web client (links, lynx, w3m, ...) on the single page HTML version.
+#
+
+%.pdf: %.xml
+	docbook2pdf $(DCL) $<
+
+%.txt: %.xml
+	docbook2txt $(DCL) $<
+
+%/index.html: %.xml
+	mkdir -p $*
+	docbook2html $(DCL) -o $* $<
+	tidy -qm $*/*.html || true
+
+%.html: %.xml
+	docbook2html $(DCL) --nochunks $<
+	tidy -qm $@ || true
