@@ -54,7 +54,7 @@
 		</simpara>
 		<simpara>
 		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP), Linux i386 and PPC,
-		Mac OS X, AmigaOS 4 and PS2.
+		Mac OS X, AmigaOS 4.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -109,7 +109,7 @@
 	<answer>
 		<simpara>
 		Yes. You can either start your game using the -f command line parameter, setting 
-		the game to Full Screen in the game pptions dialog, or by using the Alt+Enter key
+		the game to Full Screen in the game options dialog, or by using the Alt+Enter key
 		combination in-game to switch between full screen and windowed modes.
 		</simpara>
 	</answer>
@@ -124,7 +124,7 @@
 	<answer>
 		<simpara>
 		Check the <ulink url="http://residual.sourceforge.net/compatibility.php">Compatibility List</ulink> to see if your game has any known issues.
-		For now please don't repoer bugs, the engine is in still alpha state.
+		For now please don't report bugs, the engine is in still alpha state.
 		</simpara>
 	</answer>
 	</qandaentry>
