@@ -92,14 +92,6 @@
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>Do savegames from the original games work in Residual?</simpara></question>
-	<answer>
-		<simpara>
-		No and never will be.
-		</simpara>
-	</answer>
-	</qandaentry>
-
 </qandadiv>
 
 
@@ -109,8 +101,7 @@
 	<answer>
 		<simpara>
 		Yes. You can either start your game using the -f command line parameter, setting 
-		the game to Full Screen in the game options dialog, or by using the Alt+Enter key
-		combination in-game to switch between full screen and windowed modes.
+		the game to Full Screen in the game options configuration file.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -124,7 +115,7 @@
 	<answer>
 		<simpara>
 		Check the <ulink url="http://residual.sourceforge.net/compatibility.php">Compatibility List</ulink> to see if your game has any known issues.
-		For now please don't report bugs, the engine is in still alpha state.
+		For now please don't report bugs, the Grim engine is in still alpha state.
 		</simpara>
 	</answer>
 	</qandaentry>
