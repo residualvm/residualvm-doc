@@ -7,9 +7,9 @@ DOCBOOK_DTD=$(PWD)/docbook-xml-4.2/docbookx.dtd
 # Everything after here *should* be portable.
 #
 
-FAQ_DST = faq.html faq.inc
+FAQ_DST = faq-xml.xml
 
-html: faq.html
+xml: faq-xml.xml
 
 all: $(FAQ_DST)
 
@@ -22,11 +22,7 @@ clean:
 check:
 	xmllint --dtdvalid $(DOCBOOK_DTD) --noout --noent --xinclude faq.xml
 
-$(MANUAL_DST): credits.xml
-
-# Special rule for faq.inc:
-# Only keep everything contained inside the top-most <div> inside the <body>
-faq.inc: faq.html
-	  xsltproc --html --output $@ faq-inc.xsl $<
+faq-xml.xml:
+	xsltproc --output faq-xml.xml faq-xml.xsl faq.xml
 
 .PHONY: all clean check
