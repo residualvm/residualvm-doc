@@ -65,12 +65,12 @@
 <qandadiv><title>Supported games</title>
 
 	<qandaentry>
-		<question id="question.supported-games"><simpara id="question.supported-games.text">What games does Residual ?</simpara></question>
+		<question id="question.supported-games"><simpara id="question.supported-games.text">What games does Residual support?</simpara></question>
 	<answer>
 		<simpara>
 		We have a <ulink
 		url="http://residual.sourceforge.net/compatibility.php">compatibility
-		list</ulink> on our website that contains an up to date list of which
+		list</ulink> on our website that contains an up-to-date list of which
 		games work, and how well they work.
 		</simpara>
 	</answer>
