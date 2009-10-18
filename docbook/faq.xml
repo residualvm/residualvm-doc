@@ -115,7 +115,8 @@
 	<answer>
 		<simpara>
 		Check the <ulink url="http://residual.sourceforge.net/compatibility.php">Compatibility List</ulink> to see if your game has any known issues.
-		For now please don't report bugs, the Grim engine is in still alpha state.
+		If you can reproduce this crash more than once, please report it to our Bug Tracker.
+		See "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -145,6 +146,24 @@
 	</answer>
 	</qandaentry>
 
+        <qandaentry><question id="question.report-bugs"><simpara id="question.report-bugs.text">Reporting Bugs.</simpara></question>
+	<answer>
+		<simpara>
+		To report a bug, please create a SourceForge account and follow the
+		<ulink url="http://sourceforge.net/tracker/?group_id=259881&amp;atid=1202866;func=browse">bugs</ulink>
+		link from our homepage. Please make sure the bug is reproducible, and
+		still exists in the latest daily build/current Subversion version.
+		In your bugreport please provide the following information:
+
+		<itemizedlist>
+			<listitem><simpara>Bug details, including instructions on reproducing it</simpara></listitem>
+			<listitem><simpara>Language of game (English, German, ...)</simpara></listitem>
+			<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
+		</itemizedlist>
+		</simpara>
+	</answer>
+	</qandaentry>
+																																																	
 	<qandaentry><question><simpara>I get "WARNING: Unable to open configuration file C:\windows\residual.ini!"</simpara></question>
 	<answer>
 		<simpara>
