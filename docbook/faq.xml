@@ -53,7 +53,7 @@
 		Residual should be able to be compiled on any SDL platform, with modifications.
 		</simpara>
 		<simpara>
-		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP), Linux i386 and PPC,
+		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP/Vista/7), Linux i386, x64 and PPC,
 		Mac OS X, AmigaOS 4.
 		</simpara>
 	</answer>
@@ -86,22 +86,7 @@
 		<simpara>
 		For most games you do not need to run the installer. Simply copy
 		<ulink url="http://apps.sourceforge.net/mediawiki/residual/index.php?title=Datafiles">the files listed here</ulink>
-		from your CD to your hard drive, then read instructions from 
-		<ulink url="http://residual.svn.sourceforge.net/viewvc/residual/residual/trunk/README?view=markup">README</ulink>.
-		</simpara>
-	</answer>
-	</qandaentry>
-
-</qandadiv>
-
-
-<qandadiv><title>Graphics</title>
-
-	<qandaentry><question><simpara>Can I run my game full screen?</simpara></question>
-	<answer>
-		<simpara>
-		Yes. You can either start your game using the -f command line parameter, setting 
-		the game to Full Screen in the game options configuration file.
+		from your CD to your hard drive.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -126,7 +111,7 @@
 		<simpara>
 		On Windows, to make it visible, you should run Residual from the command line. To open a 
 		command prompt, open the Start Menu and select the 'Run' option. Under 
-		Windows NT/2000/XP, type 'cmd.exe' (no quotes) in the dialog box that 
+		Windows NT/2000/XP/Vista/7, type 'cmd.exe' (no quotes) in the dialog box that 
 		shows up; under Windows 95/98/Me, type 'command.com' instead. If 
 		necessary, change to the proper drive first by typing 'D:' (where 'D' is 
 		the drive Residual is located). Change to Residual's directory by typing 
@@ -152,7 +137,7 @@
 		To report a bug, please create a SourceForge account and follow the
 		<ulink url="http://sourceforge.net/tracker/?group_id=259881&amp;atid=1202866;func=browse">bugs</ulink>
 		link from our homepage. Please make sure the bug is reproducible, and
-		still exists in the latest daily build/current Subversion version.
+		still exists in the latest daily build/current Git version.
 		In your bugreport please provide the following information:
 
 		<itemizedlist>
@@ -196,7 +181,7 @@
 		<blockquote>
 		<simpara>
 		The "windib" video driver is the default now, to prevent problems with
-		certain laptops, 64-bit Windows, and Windows Vista. The DirectX driver
+		certain laptops, 64-bit Windows, and Windows Vista/7. The DirectX driver
 		is still available, and can be selected by setting the environment
 		variable <envar>SDL_VIDEODRIVER</envar> to "directx".
 		</simpara>
