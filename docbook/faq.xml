@@ -19,7 +19,7 @@
 		LucasArts 2D SCUMM adventures (among others).
 		Residual is named such as it aims to do the same for the residual (remaining) 
 		games. It is also a word pun, as the engine used in these LUA-based adventure
-		is called GrimE (as opposed to SCUMM). Grime is a type of residue.
+		games is called GrimE (as opposed to SCUMM). Grime is a type of residue.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -144,7 +144,10 @@
 			<listitem><simpara>Bug details, including instructions on reproducing it</simpara></listitem>
 			<listitem><simpara>Language of game (English, German, ...)</simpara></listitem>
 			<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
+			<listitem><simpara>Preferably also a link to a save from just before the bug happened</simpara></listitem>
 		</itemizedlist>
+
+		For further details regarding Bug Reports, please see our <ulink url="http://sourceforge.net/apps/mediawiki/residual/index.php?title=Reporting_Bugs">Wiki</ulink>
 		</simpara>
 	</answer>
 	</qandaentry>
