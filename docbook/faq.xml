@@ -3,8 +3,8 @@
        "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 <article class="faq">
 <articleinfo>
-	<title>Frequently Asked Questions About Residual</title>
-	<titleabbrev>Residual FAQ</titleabbrev>
+	<title>Frequently Asked Questions About ResidualVM</title>
+	<titleabbrev>ResidualVM FAQ</titleabbrev>
 </articleinfo>
 
 <!-- Possible values for defaultlabel: qanda, number, none -->
@@ -12,12 +12,12 @@
 
 <qandadiv><title>Introduction</title>
 
-	<qandaentry><question><simpara>Why is it called Residual - what does this name mean?</simpara></question>
+	<qandaentry><question><simpara>Why is it called ResidualVM - what does this name mean?</simpara></question>
 	<answer>
 		<simpara>
 		The <ulink url="http://www.scummvm.org">ScummVM</ulink> program can run
 		LucasArts 2D SCUMM adventures (among others).
-		Residual is named such as it aims to do the same for the residual (remaining) 
+		ResidualVM is named such as it aims to do the same for the residual (remaining) 
 		games. It is also a word pun, as the engine used in these LUA-based adventure
 		games is called GrimE (as opposed to SCUMM). Grime is a type of residue.
 		</simpara>
@@ -33,24 +33,24 @@
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>Is Residual free?</simpara></question>
+	<qandaentry><question><simpara>Is ResidualVM free?</simpara></question>
 	<answer>
 		<simpara>
-		Residual is released under the <ulink
+		ResidualVM is released under the <ulink
 		url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL (General Public
-		License)</ulink>, so it's more than free. Residual source code is freely
+		License)</ulink>, so it's more than free. ResidualVM source code is freely
 		available and you can do whatever you want with it. If you make
 		modifications to it and redistribute your work you MUST make the source
-		available. However, the Residual team would be pleased if you choose to
+		available. However, the ResidualVM team would be pleased if you choose to
 		send them your modifications, so they can be merged into the main tree.
 		</simpara>
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>On what platform does Residual run?</simpara></question>
+	<qandaentry><question><simpara>On what platform does ResidualVM run?</simpara></question>
 	<answer>
 		<simpara>
-		Residual should be able to be compiled on any SDL platform, with modifications.
+		ResidualVM should be able to be compiled on any SDL platform, with modifications.
 		</simpara>
 		<simpara>
 		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP/Vista/7), Linux i386, x64 and PPC,
@@ -65,11 +65,11 @@
 <qandadiv><title>Supported games</title>
 
 	<qandaentry>
-		<question id="question.supported-games"><simpara id="question.supported-games.text">What games does Residual support?</simpara></question>
+		<question id="question.supported-games"><simpara id="question.supported-games.text">What games does ResidualVM support?</simpara></question>
 	<answer>
 		<simpara>
 		We have a <ulink
-		url="http://residual.sourceforge.net/compatibility.php">compatibility
+		url="http://residualvm.org/compatibility.php">compatibility
 		list</ulink> on our website that contains an up-to-date list of which
 		games work, and how well they work.
 		</simpara>
@@ -81,7 +81,7 @@
 
 <qandadiv><title>Running games</title>
 
-	<qandaentry><question><simpara>How do I install games to run in Residual?</simpara></question>
+	<qandaentry><question><simpara>How do I install games to run in ResidualVM?</simpara></question>
 	<answer>
 		<simpara>
 		For most games you do not need to run the installer. Simply copy
@@ -99,34 +99,34 @@
 	<qandaentry><question><simpara>My game crashes at some point.</simpara></question>
 	<answer>
 		<simpara>
-		Check the <ulink url="http://residual.sourceforge.net/compatibility.php">Compatibility List</ulink> to see if your game has any known issues.
+		Check the <ulink url="http://residualvm.org/compatibility.php">Compatibility List</ulink> to see if your game has any known issues.
 		If you can reproduce this crash more than once, please report issue.
 		See "<xref linkend="question.report-bugs" endterm="question.report-bugs.text"/>".
 		</simpara>
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>Residual crashes, but the console window disappears too quickly to see the error message.</simpara></question>
+	<qandaentry><question><simpara>ResidualVM crashes, but the console window disappears too quickly to see the error message.</simpara></question>
 	<answer>
 		<simpara>
-		On Windows, to make it visible, you should run Residual from the command line. To open a 
+		On Windows, to make it visible, you should run ResidualVM from the command line. To open a 
 		command prompt, open the Start Menu and select the 'Run' option. Under 
 		Windows NT/2000/XP/Vista/7, type 'cmd.exe' (no quotes) in the dialog box that 
 		shows up; under Windows 95/98/Me, type 'command.com' instead. If 
 		necessary, change to the proper drive first by typing 'D:' (where 'D' is 
-		the drive Residual is located). Change to Residual's directory by typing 
-		'cd \your\path\to\residual' (substituting the appropriate path) and then 
-		type 'residual'.
+		the drive ResidualVM is located). Change to ResidualVM's directory by typing 
+		'cd \your\path\to\residualvm' (substituting the appropriate path) and then 
+		type 'residualvm'.
 		</simpara>
 		<simpara>
 		On MacOS X, you can find the error messages by starting Console.app
 		(in Utilities within the Applications folder). If you prefer, you can
-		also run Residual from the terminal. To do this, start Terminal.app
+		also run ResidualVM from the terminal. To do this, start Terminal.app
 		(also in the Utilities folder), then drag&amp;drop the Resdual.app
 		application onto the Terminal window, remove the space at the end of
-		the line and add 'Contents/MacOS/residual' (without the quotes). The
-		line should look like this: '/Path/to/Residual.app/Contents/MacOS/residual'.
-		Then press return to start Residual.
+		the line and add 'Contents/MacOS/residualvm' (without the quotes). The
+		line should look like this: '/Path/to/ResidualVM.app/Contents/MacOS/residualvm'.
+		Then press return to start ResidualVM.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -152,11 +152,11 @@
 	</answer>
 	</qandaentry>
 																																																	
-	<qandaentry><question><simpara>I get "WARNING: Unable to open configuration file C:\windows\residual.ini!"</simpara></question>
+	<qandaentry><question><simpara>I get "WARNING: Unable to open configuration file C:\windows\residualvm.ini!"</simpara></question>
 	<answer>
 		<simpara>
 		Make sure you have enough permissions to write in c:\windows directory. Also note that this warning the
-		first time you run Residual, since the file does not exist yet then.
+		first time you run ResidualVM, since the file does not exist yet then.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -164,12 +164,12 @@
 	<qandaentry><question><simpara>I get "Failed to save game state to file: xxx"</simpara></question>
 	<answer>
 		<simpara>
-		Check savepath in residual config file. That should point to writable directory.
+		Check savepath in ResidualVM config file. That should point to writable directory.
 		</simpara>
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>Residual starts, but all I get is a transparent window!</simpara></question>
+	<qandaentry><question><simpara>ResidualVM starts, but all I get is a transparent window!</simpara></question>
 	<answer>
 		<simpara>
 		This problem has been reported to happen under Windows in some cases. Check
@@ -192,7 +192,7 @@
 	</answer>
 	</qandaentry>
 		
-	<qandaentry><question><simpara>Residual runs, but sound is stuttering and/or garbled!</simpara></question>
+	<qandaentry><question><simpara>ResidualVM runs, but sound is stuttering and/or garbled!</simpara></question>
 	<answer>
 		<simpara>
 		This problem has been reported to happen under Windows in some cases. Check
@@ -209,19 +209,19 @@
 		<simpara>
 		That depends on what operating system and/or command shell you are using.
 		Under Windows, you could try creating a file called
-		<command>residual.bat</command> in the same folder as
-		<command>residual.exe</command>. Open this file in your favorite text
+		<command>residualvm.bat</command> in the same folder as
+		<command>residualvm.exe</command>. Open this file in your favorite text
 		editor and put something like this in it:
 		</simpara>
 		<blockquote>
 		<programlisting><![CDATA[@echo off
 set SDL_VIDEODRIVER=windib
 set SDL_AUDIODRIVER=waveout
-residual.exe %1 %2 %3 %4 %5 %6 %7 %8 %9]]></programlisting>
+residualvm.exe %1 %2 %3 %4 %5 %6 %7 %8 %9]]></programlisting>
 		</blockquote>
 		<simpara>
-		You should now be able to run Residual by double-clicking on this batch file,
-		instead of the Residual executable.
+		You should now be able to run ResidualVM by double-clicking on this batch file,
+		instead of the ResidualVM executable.
 		</simpara>
 		<simpara>
 		On more recent versions of Windows, you can also set an environment variable
@@ -230,12 +230,12 @@ residual.exe %1 %2 %3 %4 %5 %6 %7 %8 %9]]></programlisting>
 	</answer>
 	</qandaentry>
 
-	<qandaentry><question><simpara>Residual starts somewhere in the middle of my two Xinerama monitors in fullscreen mode. Help!</simpara></question>
+	<qandaentry><question><simpara>ResidualVM starts somewhere in the middle of my two Xinerama monitors in fullscreen mode. Help!</simpara></question>
 	<answer>
 		<simpara>
 		In fact, this is SDL problem. SDL does by default has xinerama support
 		enabled. Set the <envar>SDL_VIDEO_FULLSCREEN_HEAD</envar>
-		environment variable to "1" to start Residual (and other SDL applications) in
+		environment variable to "1" to start ResidualVM (and other SDL applications) in
 		fullscreen on only one monitor. If this does not work make sure your SDL
 		library does have Xinerama support compiled in.
 		</simpara>
