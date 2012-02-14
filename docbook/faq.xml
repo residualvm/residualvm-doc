@@ -85,7 +85,7 @@
 	<answer>
 		<simpara>
 		For most games you do not need to run the installer. Simply copy
-		<ulink url="http://apps.sourceforge.net/mediawiki/residualvm/index.php?title=Datafiles">the files listed here</ulink>
+		<ulink url="http://wiki.residualvm.org/index.php?title=Datafiles">the files listed here</ulink>
 		from your CD to your hard drive.
 		</simpara>
 	</answer>
@@ -147,7 +147,7 @@
 			<listitem><simpara>Preferably also a link to a save from just before the bug happened</simpara></listitem>
 		</itemizedlist>
 
-		For further details regarding Bug Reports, please see our <ulink url="http://sourceforge.net/apps/mediawiki/residualvm/index.php?title=Reporting_Bugs">Wiki</ulink>
+		For further details regarding Bug Reports, please see our <ulink url="http://wiki.residualvm.org/index.php?title=Reporting_Bugs">Wiki</ulink>
 		</simpara>
 	</answer>
 	</qandaentry>
