@@ -53,7 +53,7 @@
 		ResidualVM should be able to be compiled on any SDL platform, with modifications.
 		</simpara>
 		<simpara>
-		Currently tested platforms include Win32 (Windows 95/98/ME/NT/2000/XP/Vista/7), Linux i386, x64 and PPC,
+		Currently tested platforms include Windows (Windows 95/98/ME/NT/2000/XP/Vista/7), Linux,
 		Mac OS X, AmigaOS 4.
 		</simpara>
 	</answer>
