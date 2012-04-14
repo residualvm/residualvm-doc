@@ -203,7 +203,14 @@
 	</answer>
 	</qandaentry>
 
-		
+	<qandaentry><question><simpara>ResidualVM runs in fullscreen mode, but graphics is stretched!</simpara></question>
+	<answer>
+		<simpara>
+		It's know issue, it will be fixed in future versions of ResidualVM.
+		</simpara>
+	</answer>
+	</qandaentry>
+
 	<qandaentry><question><simpara>How do I set an environment variable?</simpara></question>
 	<answer>
 		<simpara>
