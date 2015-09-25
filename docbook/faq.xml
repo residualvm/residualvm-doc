@@ -17,7 +17,7 @@
 		<simpara>
 		The <ulink url="http://www.scummvm.org">ScummVM</ulink> program can run
 		LucasArts 2D SCUMM adventures (among others).
-		ResidualVM is named such as it aims to do the same for the residual (remaining) 
+		ResidualVM is named such as it aims to do the same for the residual (remaining)
 		games. It is also a word pun, as the engine used in these LUA-based adventure
 		games is called GrimE (as opposed to SCUMM). Grime is a type of residue.
 		</simpara>
@@ -53,7 +53,7 @@
 		ResidualVM should be able to be compiled on any SDL platform, with modifications.
 		</simpara>
 		<simpara>
-		Currently tested platforms include Windows (Windows 2000/XP/Vista/7/8), Linux,
+		Currently tested platforms include Windows (Windows 2000/XP/Vista/7/8/10), Linux,
 		Mac OS X, AmigaOS 4.
 		</simpara>
 	</answer>
@@ -109,19 +109,19 @@
 	<qandaentry><question><simpara>ResidualVM crashes, but the console window disappears too quickly to see the error message.</simpara></question>
 	<answer>
 		<simpara>
-		On Windows, to make it visible, you should run ResidualVM from the command line. To open a 
-		command prompt, open the Start Menu and select the 'Run' option. Under 
-		Windows 2000/XP/Vista/7/8, type 'cmd.exe' (no quotes) in the dialog box that 
-		shows up. If necessary, change to the proper drive first by typing 'D:' (where 'D' is 
-		the drive ResidualVM is located). Change to ResidualVM's directory by typing 
-		'cd \your\path\to\residualvm' (substituting the appropriate path) and then 
+		On Windows, to make it visible, you should run ResidualVM from the command line. To open a
+		command prompt, open the Start Menu and select the 'Run' option. Under
+		Windows 2000/XP/Vista/7/8/10, type 'cmd.exe' (no quotes) in the dialog box that
+		shows up. If necessary, change to the proper drive first by typing 'D:' (where 'D' is
+		the drive ResidualVM is located). Change to ResidualVM's directory by typing
+		'cd \your\path\to\residualvm' (substituting the appropriate path) and then
 		type 'residualvm'.
 		</simpara>
 		<simpara>
 		On MacOS X, you can find the error messages by starting Console.app
 		(in Utilities within the Applications folder). If you prefer, you can
 		also run ResidualVM from the terminal. To do this, start Terminal.app
-		(also in the Utilities folder), then drag&amp;drop the Resdual.app
+		(also in the Utilities folder), then drag&amp;drop the ResidualVM.app
 		application onto the Terminal window, remove the space at the end of
 		the line and add 'Contents/MacOS/residualvm' (without the quotes). The
 		line should look like this: '/Path/to/ResidualVM.app/Contents/MacOS/residualvm'.
@@ -151,15 +151,6 @@
 	</answer>
 	</qandaentry>
 																																																	
-	<qandaentry><question><simpara>I get "WARNING: Unable to open configuration file C:\windows\residualvm.ini!"</simpara></question>
-	<answer>
-		<simpara>
-		Make sure you have enough permissions to write in c:\windows directory. Also note that this warning the
-		first time you run ResidualVM, since the file does not exist yet then.
-		</simpara>
-	</answer>
-	</qandaentry>
-
 	<qandaentry><question><simpara>I get "Failed to save game state to file: xxx"</simpara></question>
 	<answer>
 		<simpara>
@@ -183,7 +174,7 @@
 		<blockquote>
 		<simpara>
 		The "windib" video driver is the default now, to prevent problems with
-		certain laptops, 64-bit Windows, and Windows Vista/7. The DirectX driver
+		certain laptops, 64-bit Windows, and Windows Vista/7/8/10. The DirectX driver
 		is still available, and can be selected by setting the environment
 		variable <envar>SDL_VIDEODRIVER</envar> to "directx".
 		</simpara>
@@ -207,7 +198,7 @@
 	<qandaentry><question><simpara>ResidualVM runs in fullscreen mode, but graphics is stretched!</simpara></question>
 	<answer>
 		<simpara>
-		It's know issue, it will be fixed in future versions of ResidualVM.
+		It's know issue. it will be fixed in future versions of ResidualVM.
 		</simpara>
 	</answer>
 	</qandaentry>
