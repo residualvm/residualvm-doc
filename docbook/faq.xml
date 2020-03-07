@@ -54,7 +54,7 @@
 		</simpara>
 		<simpara>
 		Currently tested platforms include Windows (Windows 2000/XP/Vista/7/8/10), Linux,
-		Mac OS X, AmigaOS 4.
+		macOS, AmigaOS 4.
 		</simpara>
 	</answer>
 	</qandaentry>
@@ -118,7 +118,7 @@
 		type 'residualvm'.
 		</simpara>
 		<simpara>
-		On MacOS X, you can find the error messages by starting Console.app
+		On macOS, you can find the error messages by starting Console.app
 		(in Utilities within the Applications folder). If you prefer, you can
 		also run ResidualVM from the terminal. To do this, start Terminal.app
 		(also in the Utilities folder), then drag&amp;drop the ResidualVM.app
@@ -142,7 +142,7 @@
 		<itemizedlist>
 			<listitem><simpara>Issue details, including instructions on reproducing it</simpara></listitem>
 			<listitem><simpara>Language of game (English, German, ...)</simpara></listitem>
-			<listitem><simpara>Platform and Compiler (Win32, Linux, MacOS, ...)</simpara></listitem>
+			<listitem><simpara>Platform and Compiler (Win32, Linux, macOS, ...)</simpara></listitem>
 			<listitem><simpara>Preferably also a link to a save from just before the issue happened</simpara></listitem>
 		</itemizedlist>
 
